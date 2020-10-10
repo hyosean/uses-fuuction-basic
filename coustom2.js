@@ -2,7 +2,7 @@
 특정시간동안 딜레이시켜주는 내장함수
 setToimeout(함수명, 딜레이시간); //브라우져기능을 가져다쓴다
 
-setToimeout(function() {
+setTimeout(function() {
 
 },1000);
 
