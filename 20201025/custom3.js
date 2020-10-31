@@ -46,5 +46,3 @@ function animate(selector, option) {
     }
 }
 
-
-

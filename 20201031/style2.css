@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.slider {}
+
+.slider>.penel {
+    width: calc(100% * 3);
+    height: 100%;
+}
+
+.slider>.penel li {
+    background-color: cornflowerblue;
+    float: left;
+
+}
+
+.slider>.navi {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.slider>.navi li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: azure;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.slider>.navi li.on {
+    background-color: black;
+}
