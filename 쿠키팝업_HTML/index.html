@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cookie popup</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <script defer src="js/cookie_popup.js"></script> -->
+	<script defer src="js/proto.js"></script>
+	<script>
+		window.onload = function () {
+			new Cookiepop("#pop1", {
+				btn: ".close",
+				speed: 500,
+				expireday: 1
+			});
+		}
+	</script>
+
+</head>
+
+<body>
+
+	<main>
+		<a href="#" class="del">DELETE COOKIE</a>
+	</main>
+
+	<aside class="popup">
+		<div class="content"></div>
+		<p class="wrap">
+			<input id="ck" type="checkbox">
+			<label for="ck">오늘하루 그만보기</label>
+		</p>
+		<a href="#" class="close">CLOSE</a>
+
+	</aside>
+
+	<script>
+		let today = new Date();
+		let today = new Date();
+		let year = today.getFullYear();
+		let month = today.getMonth() + 1;
+		let date = today.getDate();
+		let hour = today.getHours();
+		let min = today.getMinutes();
+		let sec = today.getSeconds();
+
+		today.setDate(9);
+
+	</script>
+
+</body>
+
+</html>
